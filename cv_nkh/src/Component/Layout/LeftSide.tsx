@@ -1,5 +1,6 @@
 import { Menu } from "./Menu";
 import logo from "../../asset/images/logo.png";
+import { Footer } from "./Footer";
 
 export const LeftSide: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ export const LeftSide: React.FC = () => {
     >
       <img src={logo} alt="logo" className=" w-40" />
       <Menu />
-      <div>Footer</div>
+      <Footer />
     </div>
   );
 };
