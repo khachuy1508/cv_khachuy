@@ -1,9 +1,22 @@
-.active {
-    border-left: solid 2px red;
+.menu {
+    li {
+        margin-bottom: 10px;
+        position: relative;
 
-}
-.menu{
-li{
-    margin-bottom: 10px;
-}
+        &.active {
+            &::before {
+                display: block;
+            }
+        }
+
+        &::before {
+            content: '';
+            height: 100%;
+            width: 1px;
+            background-color: red;
+            position: absolute;
+            left: -15px;
+            display: none;
+        }
+    }
 }

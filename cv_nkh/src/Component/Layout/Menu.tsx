@@ -6,10 +6,10 @@ export const Menu: React.FC = () => {
   return (
     <ul className="menu">
       <li className={active ? "active" : ""}>Home</li>
-      <li className={active ? "active" : ""}>About</li>
-      <li className={active ? "active" : ""}>Resume</li>
-      <li className={active ? "active" : ""}>Services</li>
-      <li className={active ? "active" : ""}>Contact</li>
+      <li>About</li>
+      <li>Resume</li>
+      <li>Services</li>
+      <li>Contact</li>
     </ul>
   );
 };
