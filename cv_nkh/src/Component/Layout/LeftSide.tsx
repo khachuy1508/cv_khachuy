@@ -11,7 +11,7 @@ export const LeftSide: React.FC = () => {
         borderLeft: "solid 1px rgb(255 255 255 / 15%)",
       }}
     >
-      <img src={logo} alt="logo" className=" w-40" />
+      <img src={logo} alt="logo" className="w-40" />
       <Menu />
       <Footer />
     </div>
